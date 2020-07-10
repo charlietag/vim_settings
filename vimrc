@@ -140,6 +140,9 @@ set cursorcolumn
 set showtabline=2
 "set mouse=a
 
+" Show current command
+set showcmd
+
 "pastetoggle
 nnoremap <F10> :set invpaste paste?<CR>
 set pastetoggle=<F10>
