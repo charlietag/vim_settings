@@ -1,8 +1,11 @@
 "*********************************
 "       Charlie Customize - Load plugin
 "*********************************
-"------------Load pathogen(VIM plugin management)-------------
-execute pathogen#infect()
+"------------Load pathogen(VIM plugin manager)-------------
+"execute pathogen#infect()
+
+"------------Load junegunn/vim-plug (VIM plugin manager)-------------
+source $HOME/.vim/vim_settings/include_plugins.vim
 
 "------------Plugin: nerdtree------------
 map <C-n> :NERDTreeToggle<CR>
@@ -117,7 +120,7 @@ autocmd Filetype html,css,scss,eruby,php imap <silent> <buffer> <expr> <tab> emm
 "*********************************
 
 "------------VIM Colorscheme------------
-colorscheme lucid_tag
+silent! colorscheme lucid_tag
 "colorscheme slate
 
 "------------VIM Setting------------
