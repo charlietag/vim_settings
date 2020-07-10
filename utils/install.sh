@@ -34,6 +34,12 @@ fi
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 if [[ -f "$HOME/.vim/autoload/plug.vim" ]]; then
   vim +'PlugInstall --sync' +qa
+  echo ""
+  echo "---------- VIM settings finished ----------"
+
+else
+  echo "$HOME/.vim/autoload/plug.vim not found !!!"
 fi
