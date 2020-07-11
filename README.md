@@ -39,7 +39,7 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/mas
 ## Manual Installation
 
 * Remove current config
-  * `rm -fr $HOME/.vimrc`
+  * `rm -f $HOME/.vimrc`
   * `rm -fr $HOME/.vim`
 
 * Install **vim-plug**
