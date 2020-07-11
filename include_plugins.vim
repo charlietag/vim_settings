@@ -1,10 +1,14 @@
+" ------------------------------------------------------------
 " Ref. https://github.com/junegunn/vim-plug
+" ------------------------------------------------------------
 " Specify a directory for plugins
 " - Avoid using standard Vim directory names like 'plugin'
 "   - Plugin will be downloaded in folder '~/.vim/plugged/*'
 call plug#begin('~/.vim/plugged')
 
+" ------------------------------------------------------------
 " Make sure you use single quotes
+" ------------------------------------------------------------
 
   Plug 'godlygeek/tabular'
   Plug 'Raimondi/delimitMate'
@@ -24,5 +28,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'charlietag/nginx.vim'
   Plug 'charlietag/lucid_tag.vim'
 
+" ------------------------------------------------------------
 " Initialize plugin system
+" ------------------------------------------------------------
 call plug#end()
