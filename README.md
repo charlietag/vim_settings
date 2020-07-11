@@ -5,8 +5,8 @@
 Deploy my vim setting and vim plugins using [``vim-plug``](https://github.com/junegunn/vim-plug) on **CentOS 8**
 
 * Be sure to **backup your config**
-  * `.vimrc`
-  * `.vim/`
+  * `$HOME/.vimrc`
+  * `$HOME/.vim/`
 
 ## Installed Plugins
 
