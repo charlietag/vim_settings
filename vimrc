@@ -175,8 +175,16 @@ nnoremap TT :retab<CR>
 "autocmd BufWritePre,BufEnter * :retab | :%s/\s\+$//g | :w
 
 "/e - will escape special characters
+
 "autocmd BufWritePre,BufEnter * :retab | :%s/\s\+$//e | :w
-autocmd BufWritePre,BufEnter * :retab | :%s/\s\+$//e
+  " Remove Spaces then save
+
+"autocmd BufWritePre,BufEnter * :retab | :%s/\s\+$//e
+  " --> Remove spaces before save and at the moment opening files
+  " --> Error occurs when reading VIM HELP docs
+
+autocmd BufWritePre * :retab | :%s/\s\+$//e
+  " --> Remove spaces before save
 
 
 
