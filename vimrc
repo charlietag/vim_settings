@@ -151,6 +151,9 @@ set showmode
 "Quick tab to spaces
 nnoremap TT :retab<CR>
 
+"Quick clear current search
+"nnoremap <F12> :noh<CR>
+nnoremap <Leader><space> :noh<CR>
 
 " -----------------------------------------
 "       Do some commands before save everytime in VIM
