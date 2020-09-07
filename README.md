@@ -61,4 +61,4 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/mas
 ## Changelog
 
 * 2020/09/08
-  * Replace Raimondi/delimitMate with **xjiangmiao/auto-pairs**
+  * Replace ~~Raimondi/delimitMate~~ with **xjiangmiao/auto-pairs**
