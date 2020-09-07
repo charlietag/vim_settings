@@ -11,7 +11,7 @@ Deploy my vim setting and vim plugins using [``vim-plug``](https://github.com/ju
 ## Installed Plugins
 
 * godlygeek/tabular
-* Raimondi/delimitMate
+* jiangmiao/auto-pairs
 * scrooloose/nerdtree
 * vim-airline/vim-airline
 * tpope/vim-sensible
@@ -57,3 +57,8 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/mas
   * `vim +'PlugInstall --sync' +qa`
 
 * Done
+
+## Changelog
+
+* 2020/09/08
+  * Replace Raimondi/delimitMate with **xjiangmiao/auto-pairs**

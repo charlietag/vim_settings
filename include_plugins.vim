@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 " ------------------------------------------------------------
 
   Plug 'godlygeek/tabular'
-  Plug 'Raimondi/delimitMate'
+  Plug 'jiangmiao/auto-pairs'
   Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
   Plug 'vim-airline/vim-airline'
   Plug 'tpope/vim-sensible'
