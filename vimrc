@@ -12,6 +12,11 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-l> :tabn<CR>
 map <C-k> :tabp<CR>
 
+" Move current tab position afterward
+nnoremap <Leader>k :tabm -1<CR>
+" Move current tab position forward
+nnoremap <Leader>l :tabm +1<CR>
+
 "------------Plugin: gitgutter------------
 set updatetime=100
 let g:gitgutter_map_keys = 0
