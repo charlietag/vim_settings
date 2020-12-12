@@ -85,7 +85,7 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/mas
   </html>
   ```
 
-* iv>p>ui>li*5 + `tab`
+* div>p>ui>li*5 + `tab`
 
   ```
   <div>
