@@ -71,8 +71,6 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/mas
 ### emmet-vim
 * Tutorial
   * https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL
-* Tutorial (中文)
-  * https://www.itread01.com/content/1494736004.html
 * html:5 + `tab`
 
   ```
@@ -169,27 +167,27 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/mas
 
     * Ctrl+y -> A
       ```
-			<blockquote class="quote">
-			<a href="https://github.com">GitHub: Where the world builds software · GitHub</a>
-			<br>
-			<p># Octocat Classifier :octopus: :cat: :mag: ![](https://img.shields.io/badge/build-passing-brightgree...</p>
-			<cite>https://github.com</cite>
-			</blockquote>
+      <blockquote class="quote">
+      <a href="https://github.com">GitHub: Where the world builds software · GitHub</a>
+      <br>
+      <p># Octocat Classifier :octopus: :cat: :mag: ![](https://img.shields.io/badge/build-passing-brightgree...</p>
+      <cite>https://github.com</cite>
+      </blockquote>
       ```
 
 ### vim-surround
 * delete surround
-	* ds`"`
+  * ds`"`
 * delete surround no matter what
-	* dst
+  * dst
 * change surround `"` -> `'`
-	* cs`"'`
+  * cs`"'`
 * change surround no matter what `anything` -> `'`
-	* cst`'`
+  * cst`'`
 * Add surround on **word** with `"`
-	* ys**iw**`"`
+  * ys**iw**`"`
 * Add surround on **line** with `"`
-	* ys**s**`"`
+  * ys**s**`"`
 
 ## Changelog
 
