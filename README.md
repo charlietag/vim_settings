@@ -71,6 +71,8 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/mas
 ### emmet-vim
 * Tutorial
   * https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL
+* Cheat Sheet
+  * https://docs.emmet.io/cheat-sheet/
 * html:5 + `tab`
 
   ```
