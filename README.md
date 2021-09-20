@@ -191,7 +191,111 @@ $ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/mas
 * Add surround on **line** with `"`
   * ys**s**`"`
 
+### Vim useful usage
+
+#### Setup mapping
+
+* map
+
+  ```
+  nnoremap ; <C-w>
+  ```
+
+#### Usefule Command (VIM - window)
+
+Ref http://vimdoc.sourceforge.net/htmldoc/windows.html
+
+* window - resizing
+  * width (decrease / increase)
+
+    ```
+    ; <
+    ; >
+    ```
+
+  * height (decrease / increase)
+
+    ```
+    ; -
+    ; +
+    ```
+
+  * Maximize ( height / width) & back to all window
+
+    ```
+    ; _
+    ; |
+    ; =
+    ```
+
+  * Equal all height / width
+
+    ```
+    ; =
+    ```
+
+* window - move around
+  * Move current window to new Tab
+
+    ```
+    ; T
+    ```
+
+  * Move the current window to the most ( top / bottom / left / right ) split
+
+    ```
+    ; K
+    ; J
+    ; H
+    ; L
+    ```
+
+  * Rotate window
+
+    ```
+    ; r
+    ```
+
+  * Swap window with prev window
+
+    ```
+    ; x
+    ```
+
+#### Usefule Command (VIM - File)
+
+* File - open the same file in (vertical / horizantal) split at the same time
+  * useful for a very long file, one for editing top content , one for editing bottom content
+
+    ```
+    (at the current file) ; v
+    (at the current file) ; s
+    ```
+
+#### Usefule Command (VIM - Opening File)
+
+Ref. https://silverwind1982.pixnet.net/blog/post/346179083
+
+* vim multiple file in (vertical / horizantal / tab)
+
+  ```
+  vim -o
+  vim -O
+  vim -p
+  ```
+
+* NerdTree
+  * NerdTree open in new ( tab / vertical split / horizantal split )
+
+    ```
+    T : open in new tab
+    i : open in horizantal split
+    s : open in vertical split
+    ```
+
 ## Changelog
 
 * 2020/09/08
   * Replace ~~Raimondi/delimitMate~~ with **jiangmiao/auto-pairs**
+* 2021/09/20
+  * Add vim mapping (<C-W>) for more useful usage
