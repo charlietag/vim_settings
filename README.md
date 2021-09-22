@@ -298,4 +298,4 @@ Ref. https://silverwind1982.pixnet.net/blog/post/346179083
 * 2020/09/08
   * Replace ~~Raimondi/delimitMate~~ with **jiangmiao/auto-pairs**
 * 2021/09/20
-  * Add vim mapping (<C-W>) for more useful usage
+  * Add vim mapping `<C-w>` for more useful usage
