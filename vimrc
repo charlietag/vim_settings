@@ -291,3 +291,12 @@ autocmd BufWritePre * :retab | :%s/\s\+$//e
 " Prevent Vim Clearing Screen on Exit
 "set t_ti= t_te=
 
+
+
+
+" -----------------------------------------
+"       Load all config under ~/.vimrc.d/*.vim
+" -----------------------------------------
+for CONFIG in split(glob('~/.vimrc.d/*.vim'), '\n')
+     exe 'source' CONFIG
+endfor

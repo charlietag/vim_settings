@@ -299,3 +299,5 @@ Ref. https://silverwind1982.pixnet.net/blog/post/346179083
   * Replace ~~Raimondi/delimitMate~~ with **jiangmiao/auto-pairs**
 * 2021/09/20
   * Add vim mapping `<C-w>` for more useful usage
+* 2022/10/11
+  * Add .vimrc.d , used for python tabline = 2
