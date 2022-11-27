@@ -33,7 +33,7 @@ Deploy my vim setting and vim plugins using [``vim-plug``](https://github.com/ju
 ## Automatic Installation (Recommend)
 
 ```bash
-$ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/master/utils/install.sh)
+bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/master/utils/install.sh)
 ```
 
 ## Manual Installation
