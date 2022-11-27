@@ -144,6 +144,7 @@ set smartindent
 set cursorline
 set cursorcolumn
 set showtabline=2
+set hlsearch
 "set mouse=a
 
 " Show current command

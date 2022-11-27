@@ -301,3 +301,5 @@ Ref. https://silverwind1982.pixnet.net/blog/post/346179083
   * Add vim mapping `<C-w>` for more useful usage
 * 2022/10/11
   * Add .vimrc.d , used for python tabline = 2
+* 2022/11/27
+  * add `set hlsearch`
