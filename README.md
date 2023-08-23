@@ -30,6 +30,9 @@ Deploy my vim setting and vim plugins using [``vim-plug``](https://github.com/ju
 * charlietag/lucid_tag.vim
   * default colorscheme
 
+* Vimjas/vim-python-pep8-indent
+  * for python indent in pep8 style
+
 ## Automatic Installation (Recommend)
 
 ```bash

@@ -27,6 +27,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'ap/vim-css-color'
   Plug 'charlietag/nginx.vim'
   Plug 'charlietag/lucid_tag.vim'
+  Plug 'Vimjas/vim-python-pep8-indent'
 
 " ------------------------------------------------------------
 " Initialize plugin system
