@@ -306,8 +306,11 @@ endfor
 " -----------------------------------------
 "       For github copilot remap tab to Ctrl-g
 " -----------------------------------------
-" html
-autocmd FileType html inoremap <silent><expr> <C-g> copilot#Accept("\<CR>")
 
-" erb
-autocmd FileType eruby inoremap <silent><expr> <C-g> copilot#Accept("\<CR>")
+if exists("*copilot#Accept")
+  " html
+  autocmd FileType html inoremap <silent><expr> <C-g> copilot#Accept("\<CR>")
+
+  " erb
+  autocmd FileType eruby inoremap <silent><expr> <C-g> copilot#Accept("\<CR>")
+endif
