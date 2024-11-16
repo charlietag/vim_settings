@@ -301,3 +301,13 @@ autocmd BufWritePre * :retab | :%s/\s\+$//e
 for CONFIG in split(glob('~/.vimrc.d/*.vim'), '\n')
      exe 'source' CONFIG
 endfor
+
+
+" -----------------------------------------
+"       For github copilot remap tab to Ctrl-g
+" -----------------------------------------
+# html
+autocmd FileType html inoremap <silent><expr> <C-g> copilot#Accept("\<CR>")
+
+# erb
+autocmd FileType eruby inoremap <silent><expr> <C-g> copilot#Accept("\<CR>")

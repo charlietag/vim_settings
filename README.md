@@ -306,3 +306,5 @@ Ref. https://silverwind1982.pixnet.net/blog/post/346179083
   * Add .vimrc.d , used for python tabline = 2
 * 2022/11/27
   * add `set hlsearch`
+* 2024/11/16
+  * add 'github copilot tab remap to Ctrl-g'
