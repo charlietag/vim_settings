@@ -63,6 +63,16 @@ bash <(curl -LSs https://raw.githubusercontent.com/charlietag/vim_settings/maste
 
 ## Note
 
+### Vim - tcomment_vim
+* iTerm2 setup for sending Ctrl-/ correctly
+  1. Open Preferences (Cmd+,) in iTerm.
+  1. Navigate to Profiles > Keys.
+  1. Click the + button to create a new key mapping.
+  1. Configure as follows:
+    1. Keyboard Shortcut: Ctrl-/.
+    1. Action: Send Hex Code.
+    1. Hex Code: 1f (the correct code for Ctrl-/).
+
 ### Vim - remove HTML outer tag / inner text without plugins
 * Remove outer tag ([link](https://stackoverflow.com/questions/6264012/how-to-delete-html-tags-not-the-contents-in-vim))
   * Normal Mode
