@@ -28,6 +28,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'charlietag/nginx.vim'
   Plug 'charlietag/lucid_tag.vim'
   Plug 'Vimjas/vim-python-pep8-indent'
+  Plug 'hashivim/vim-terraform'
+  Plug 'hashivim/vim-packer'
 
 " ------------------------------------------------------------
 " Initialize plugin system

@@ -304,6 +304,12 @@ endfor
 
 
 " -----------------------------------------
+" For TerraForm format
+" -----------------------------------------
+let g:terraform_fmt_on_save=1
+
+
+" -----------------------------------------
 "       For github copilot remap tab to Ctrl-g
 " -----------------------------------------
 " Not working
