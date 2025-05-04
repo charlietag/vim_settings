@@ -33,6 +33,9 @@ Deploy my vim setting and vim plugins using [``vim-plug``](https://github.com/ju
 * Vimjas/vim-python-pep8-indent
   * for python indent in pep8 style
 
+* hashivim/vim-terraform
+* hashivim/vim-packer
+
 ## Automatic Installation (Recommend)
 
 ```bash
