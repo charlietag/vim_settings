@@ -30,6 +30,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'Vimjas/vim-python-pep8-indent'
   Plug 'hashivim/vim-terraform'
   Plug 'hashivim/vim-packer'
+  Plug 'github/copilot.vim'
 
 " ------------------------------------------------------------
 " Initialize plugin system

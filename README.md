@@ -35,6 +35,7 @@ Deploy my vim setting and vim plugins using [``vim-plug``](https://github.com/ju
 
 * hashivim/vim-terraform
 * hashivim/vim-packer
+* github/copilot.vim
 
 ## Automatic Installation (Recommend)
 
