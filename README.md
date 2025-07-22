@@ -328,3 +328,4 @@ Ref. https://silverwind1982.pixnet.net/blog/post/346179083
   * add 'github copilot tab remap to Ctrl-g'
 * 2025/07/23
   * add 'ansible-vim support'
+  * all ini file comment out by '# ' instead of '; '

@@ -315,6 +315,11 @@ let g:ansible_unindent_after_newline = 1
 let g:ansible_name_highlight = 'd'
 let g:ansible_extra_keywords_highlight = 1
 
+" Configure TComment to use # for ini files
+let g:tcomment_types = get(g:, 'tcomment_types', {})
+let g:tcomment_types['dosini'] = '# %s'
+let g:tcomment_types['ini'] = '# %s'
+
 " -----------------------------------------
 "       For github copilot remap tab to Ctrl-g
 " -----------------------------------------
