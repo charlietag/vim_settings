@@ -31,6 +31,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'hashivim/vim-terraform'
   Plug 'hashivim/vim-packer'
   Plug 'github/copilot.vim'
+  Plug 'pearofducks/ansible-vim'
 
 " ------------------------------------------------------------
 " Initialize plugin system

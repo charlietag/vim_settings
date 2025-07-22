@@ -25,8 +25,10 @@ Deploy my vim setting and vim plugins using [``vim-plug``](https://github.com/ju
 * tpope/vim-endwise
 * vim-ruby/vim-ruby
 * ap/vim-css-color
+
 * charlietag/nginx.vim
   * clone from nginx/contrib, for highlight nginx config
+
 * charlietag/lucid_tag.vim
   * default colorscheme
 
@@ -36,6 +38,8 @@ Deploy my vim setting and vim plugins using [``vim-plug``](https://github.com/ju
 * hashivim/vim-terraform
 * hashivim/vim-packer
 * github/copilot.vim
+
+* pearofducks/ansible-vim
 
 ## Automatic Installation (Recommend)
 
@@ -322,3 +326,5 @@ Ref. https://silverwind1982.pixnet.net/blog/post/346179083
   * add `set hlsearch`
 * 2024/11/16
   * add 'github copilot tab remap to Ctrl-g'
+* 2025/07/23
+  * add 'ansible-vim support'
