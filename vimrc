@@ -312,7 +312,7 @@ let g:terraform_fmt_on_save=1
 " For ansible format
 " -----------------------------------------
 let g:ansible_unindent_after_newline = 1
-let g:ansible_name_highlight = 'd'
+let g:ansible_name_highlight = 'b'
 let g:ansible_extra_keywords_highlight = 1
 
 " Configure TComment to use # for ini files
@@ -320,6 +320,10 @@ let g:tcomment_types = get(g:, 'tcomment_types', {})
 let g:tcomment_types['dosini'] = '# %s'
 let g:tcomment_types['ini'] = '# %s'
 
+" all yml set filetype to yaml.ansible (default: yaml)
+au BufRead,BufNewFile *.yml set filetype=yaml.ansible
+" allj2 set filetype to python.jinja2 (default: jinja2)
+au BufRead,BufNewFile *.j2 set filetype=python.jinja2
 " -----------------------------------------
 "       For github copilot remap tab to Ctrl-g
 " -----------------------------------------

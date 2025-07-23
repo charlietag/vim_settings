@@ -329,3 +329,6 @@ Ref. https://silverwind1982.pixnet.net/blog/post/346179083
 * 2025/07/23
   * add 'ansible-vim support'
   * all ini file comment out by '# ' instead of '; '
+* 2025/07/24
+  * all yml file set filetype to yaml.ansible (default: yaml)
+  * allj2 file set filetype to python.jinja2 (default: jinja2)
