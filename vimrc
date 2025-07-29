@@ -323,7 +323,7 @@ let g:tcomment_types['ini'] = '# %s'
 " all yml set filetype to yaml.ansible (default: yaml)
 au BufRead,BufNewFile *.yml set filetype=yaml.ansible
 " allj2 set filetype to python.jinja2 (default: jinja2)
-au BufRead,BufNewFile *.j2 set filetype=python.jinja2
+" au BufRead,BufNewFile *.j2 set filetype=python.jinja2
 " -----------------------------------------
 "       For github copilot remap tab to Ctrl-g
 " -----------------------------------------
